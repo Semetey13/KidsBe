@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.one {
+    margin: 30px 60px;
+}
+
+.zakaz {
+    padding: 15px;
+    margin: 0 0 0 20px;
+    background-color: #2DBC7C;
+    color: rgb(210, 240, 240);
+    border-radius: 15px 15px 25px 30px;
+    font-family: sans-serif;
+    border-style: none;
+    font-size: 130%;
+}
+
+hr {
+    color: #F5F4FF;
+    height: 1px;
+}
+
+.hero-container {
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 50px;
+}
+ul li a {
+   box-sizing: border-box;
+   text-align: center;
+   text-decoration: none;
+   font-family: sans-serif;
+   font-weight: 400;
+}
+
+.box1 {
+    background-color: #f5f4ff;
+}
+
+.container{
+    padding: 30px 0;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 3em;
+}
+
+.boygirl {
+    width: 80%;
+}
+
+.book {
+    margin: 20px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.special-button {
+    /* padding: 20px 30px; */
+    border-radius: 10px 45px 10px 45px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-style: none;
+}
+
+.special-button:active {
+    background-color: #2DBC7C;
+}
+
+.number-special-button {
+    background-color: #E8E5FB;
+    display: grid;
+}
+
+.color-special-button {
+    background-color: #5B45FF;
+    padding: 20px 30px;
+    border-radius: 10px 45px 10px 45px;
+    color: #f5f4ff;
+}
+
+.zero {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-auto-flow: column;
+}
+
+.one {
+    margin: 15px 25px;
+    padding: 15px 25px;
+    background-color: white;
+    border-radius: 20px;
+    border-color: #2DBC7C;
+    border-style: none;
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
