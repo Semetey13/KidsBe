@@ -90,7 +90,6 @@ h1 {
 }
 
 .special-button {
-    /* padding: 20px 30px; */
     border-radius: 10px 45px 10px 45px;
     display: inline-grid;
     grid-template-columns: auto auto;
@@ -157,4 +156,39 @@ h1 {
 .one p {
     font-family: sans-serif;
     font-size: 14px;
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 768px) and (max-width:1199px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .zero {
+        display: flex;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .one {
+        grid-template-columns:  1fr 1fr;
+    }
+}
+
+
+@media (min-width: 375px) and (max-width:768px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+    }
+
 }
